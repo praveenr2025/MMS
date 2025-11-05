@@ -499,7 +499,7 @@ function Suppliers() {
             <div className="split">
                 <div className="card" style={{ flex: '1' }}>
                     <div className="modal-head"><h3 style={{ margin: 0 }}>New Supplier Onboarding</h3></div>
-                    <p>Use the **Add New Supplier** button above, or click on an entry in the Pending Approvals table to start the review process.</p>
+                    <p>Use the Add New Supplier button above, or click on an entry in the Pending Approvals table to start the review process.</p>
                     <button className="btn" onClick={() => handleOpenForm('add')}>Start New Onboarding</button>
                 </div>
                 <div className="card" style={{ flex: '1.5' }}>
