@@ -39,7 +39,7 @@ function Layout({ children, pageTitle }) {
 
 function App() {
     return (
-        <Router>
+        <Router basename="/mms">
           <IconSprite />
             <Routes>
                 {/* 1. Procurement */}
